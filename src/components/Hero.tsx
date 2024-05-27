@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <div
-      className="relative w-screen h-[700px] bg-black overflow-hidden flex justify-center items-center"
+      className="relative w-screen h-[800px] bg-black overflow-hidden flex justify-center items-center"
       style={{
         background:
           "url('https://www.ey.com/adobe/dynamicmedia/deliver/dm-aid--bb442390-63e0-4f1a-8575-be6143ba0a17/ey-male-carpenter-using-tape-measure-piece-of-wood-in-wood-processing-plants.jpg?preferwebp=true&quality=85')",
