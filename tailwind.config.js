@@ -2,7 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "custom-gradient": "linear-gradient(transparent, #fff 95%)",
+      },
+    },
   },
   plugins: [],
 };
