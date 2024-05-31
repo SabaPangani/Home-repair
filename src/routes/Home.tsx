@@ -1,3 +1,4 @@
+import ContactUs from "../components/ContactUs";
 import Hero from "../components/Hero";
 import Ratings from "../components/Ratings";
 import Services from "../components/Services";
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Ratings />
       <Services />
+      <ContactUs />
     </div>
   );
 }

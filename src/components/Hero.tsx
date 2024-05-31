@@ -15,7 +15,7 @@ export default function Hero() {
       <div className="w-[1380px] mb-24 flex flex-col">
         <h1 className="text-[#9caf88] text-[52px]">
           Fluid-Aire Dynamics: The Leading Compressed Air Solutions Company
-        </h1>
+        </h1> 
         <p className="text-[#d7dfcf] text-lg">
           Specializing in compressed air services in Chicago, Milwaukee,
           Minneapolis, Detroit, Philadelphia. System design, equipment,
