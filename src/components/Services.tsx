@@ -17,7 +17,7 @@ export default function Services() {
         </p>
       </div>
 
-      <div className="flex flex-row gap-x-10 my-10">
+      <div className="flex flex-row gap-x-10 my-10 w-[1380px] justify-between">
         <div className="w-full max-w-[393px] h-[520px] rounded-lg border-2 flex justify-center items-center flex-col hover:scale-105 transition-all cursor-pointer">
           <img
             src="https://apexwindowwerks.com/app/uploads/2023/03/IMG_4535-768x512.webp"
