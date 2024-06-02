@@ -5,7 +5,7 @@ import LocationSvg from "./svgs/LocationSvg";
 export default function ContactUs() {
   return (
     <div
-      className="w-screen flex justify-center items-center flex-col text-white mb-10 h-[600px]"
+      className="w-screen flex justify-center items-center flex-col text-white h-[600px]"
       style={{
         background:
           "url('https://www.ey.com/adobe/dynamicmedia/deliver/dm-aid--bb442390-63e0-4f1a-8575-be6143ba0a17/ey-male-carpenter-using-tape-measure-piece-of-wood-in-wood-processing-plants.jpg?preferwebp=true&quality=85')",
