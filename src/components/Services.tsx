@@ -87,8 +87,8 @@ export default function Services() {
     //     </div>
     //   </div>
     // </div>
-    <div className="flex justify-betweeen gap-x-20 items-center w-[1380px] mx-auto my-10">
-      <div className="bg-[#f8f8f8] min-h-[400px] w-full max-w-[300px] p-[50px]">
+    <div className="flex justify-betweeen gap-x-20 items-center w-[1380px] mx-auto my-44 mb-20">
+      <div className="bg-[#f8f8f8] w-full max-w-[300px] p-[50px]">
         <p className="text-[#797979] text-sm">OUR SERVICES</p>
         <h1 className="text-[40px] text-[#000000] font-medium">SERVICES </h1>
         <p className="mb-3 text-[#797979] font-light">
@@ -102,7 +102,7 @@ export default function Services() {
           sapiente nam accusamus. Mollitia, fugit itaque.
         </p>
       </div>
-      <ul className="flex flex-row flex-wrap gap-5 justify-end text-center gap-y-10">
+      <ul className="flex flex-row flex-wrap justify-between gap-y-10 text-center">
         <li className="flex justify-center flex-col items-center bg-[#f8f8f8] py-10 px-5 gap-y-2 w-[300px]">
           <img src={painting} alt="" className="w-14 h-14" />
           <h2 className="text-[20px] opacity-90">PAINTING</h2>
