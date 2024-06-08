@@ -1,4 +1,5 @@
 import ContactUs from "../components/ContactUs";
+import Faq from "../components/Faq";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Ratings from "../components/Ratings";
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Ratings />
       <Services />
+      <Faq />
       <ContactUs />
       <Footer />
     </div>
