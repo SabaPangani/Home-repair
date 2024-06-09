@@ -1,8 +1,8 @@
-export default function ArrowDownSvg() {
+export default function ArrowDownSvg({ fill }: { fill: string }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill="#ffffff"
+      fill={fill}
       height="11"
       width="11"
       version="1.1"
