@@ -107,7 +107,7 @@ export default function ContactUs() {
           <p className="text-[#878787] text-sm font-light">Marketer</p>
         </div>
       </div> */}
-      <div className="absolute -top-[200px] cursor-grab">
+      <div className="absolute -top-[200px] cursor-grab w-full px-5">
         <Testimonials />
       </div>
       <ul className="flex flex-row text-center w-full justify-center mt-10">

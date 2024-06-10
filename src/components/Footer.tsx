@@ -51,7 +51,7 @@ export default function Footer() {
     //     </ul>
     //   </div>
     // </div>
-    <div className="flex flex-col justify-between items-center bg-[#131313] pt-20 pb-2">
+    <div className="flex flex-col justify-between items-center bg-[#131313] pt-20 pb-2 px-5">
       <img
         src="https://livedemo00.template-help.com/wt_prod-12465/images/logo-footer.png"
         alt=""

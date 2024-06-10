@@ -34,7 +34,7 @@ export default function Hero() {
     //   </div>
     // </div>
     <div
-      className="relative w-screen h-[700px] bg-[rgb(25,92,146)] overflow-hidden flex justify-center items-center"
+      className="relative w-screen h-[700px] bg-[rgb(25,92,146)] overflow-hidden flex justify-center items-center px-5"
       style={{
         background:
           "url('https://ngetemplates.com/rinovim/img/intro.png')",
