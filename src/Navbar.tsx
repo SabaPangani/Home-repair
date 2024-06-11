@@ -2,10 +2,10 @@ import ArrowDownSvg from "./components/svgs/ArrowDownSvg";
 
 export default function Navbar() {
   return (
-    <nav className="w-full max-w-[1380px] mx-auto my-7 flex flex-row justify-between items-center z-10 absolute left-1/2 -translate-x-1/2 top-0 text-white px-5">
+    <nav className="w-full max-w-[1400px] mx-auto my-7 flex flex-row justify-between items-center z-10 absolute left-1/2 -translate-x-1/2 top-0 text-white px-3">
       <h1 className="text-xl font-medium">Logo</h1>
 
-      <ul className="flex flex-row items-center gap-x-10 font-medium cursor-pointer">
+      <ul className="flex flex-row items-center gap-x-10 font-medium cursor-pointer sm:hidden">
         <li>Home</li>
         <li className="flex flex-row items-center gap-x-2">Services <ArrowDownSvg fill="#ffffff"/></li>
         <li>About</li>

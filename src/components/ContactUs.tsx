@@ -107,43 +107,43 @@ export default function ContactUs() {
           <p className="text-[#878787] text-sm font-light">Marketer</p>
         </div>
       </div> */}
-      <div className="absolute -top-[200px] cursor-grab w-full px-5">
+      <div className="absolute -top-[200px] cursor-grab w-full px-3">
         <Testimonials />
       </div>
-      <ul className="flex flex-row text-center w-full justify-center mt-10">
-        <li className="flex flex-col justify-center items-center w-1/4 gap-x-10 gap-y-2">
+      <ul className="flex text-center w-full justify-center mt-10 md:flex-col md:items-center gap-y-12">
+        <li className="flex flex-col justify-center items-center gap-x-10 gap-y-2 w-1/3">
           <div className="bg-[#f26522] w-15 h-15 rounded-full px-3 py-3 relative">
             <LocationSvg />
           </div>
           <div>
-            <p className="text-white text-3xl">Address</p>
-            <p className="text-white opacity-90 font-light mt-1">
+            <p className="text-white text-3xl md:text-2xl">Address</p>
+            <p className="text-white opacity-90 font-light mt-1 w-full">
               121 King Street, Victoria 3000
             </p>
           </div>
         </li>
-        <div className="flex flex-col items-center gap-y-3 mt-5">
-          <h1 className="text-[52px] text-white font-medium mb-3">
+        <div className="flex flex-col items-center gap-y-3">
+          <h1 className="text-[52px] text-white font-medium mb-4 md:hidden">
             Contact us
           </h1>
-          <li className="flex flex-col justify-center items-center w-1/4 gap-x-10 gap-y-2">
+          <li className="flex flex-col justify-center items-center gap-x-10 gap-y-2 w-1/3">
             <div className="bg-[#f26522] w-15 h-15 rounded-full px-3 py-3 relative">
               <EnvelopeSvg />
             </div>
             <div>
-              <p className="text-white text-3xl">Email</p>
+              <p className="text-white text-3xl md:text-2xl">Email</p>
               <p className="text-white opacity-90 font-light mt-1">
                 info@yourmail.com
               </p>
             </div>
           </li>
         </div>
-        <li className="flex flex-col justify-center items-center w-1/4 gap-x-10 gap-y-2">
+        <li className="flex flex-col justify-center items-center gap-x-10 gap-y-2 w-1/3">
           <div className="bg-[#f26522] w-15 h-15 rounded-full px-3 py-3 relative">
             <TelephoneSvg />
           </div>
           <div>
-            <p className="text-white text-3xl">Phone</p>
+            <p className="text-white text-3xl md:text-2xl">Phone</p>
             <p className="text-white opacity-90 font-light mt-1">
               +123 456 789
             </p>

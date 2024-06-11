@@ -1,20 +1,20 @@
 export default function Ratings() {
   return (
-    <div className="bg-white pb-10 flex flex-col justify-center items-center gap-y-5 absolute shadow-xl rounded-sm left-1/2 top-[57%] -translate-y-[57%] -translate-x-1/2 w-full max-w-[1180px] px-5 max-xl:max-w-[900px] max-xl:top-[61%]">
-      <ul className="uppercase flex flex-wrap justify-between w-full max-w-[1180px] mt-10 gap-y-3 max-xl:justify-center max-xl:gap-x-10">
-        <li className="flex flex-col text-black border border-black rounded-xl pl-5 pr-16 py-2 max-xl:w-[40%] max-sm:w-full">
+    <div className="bg-white pb-10 flex flex-col justify-center items-center gap-y-5 absolute shadow-xl rounded-sm left-1/2 top-[65%] -translate-y-[65%] -translate-x-1/2 w-full max-w-[1180px] px-5 xl:max-w-[900px] xl:top-[61%]">
+      <ul className="uppercase flex flex-wrap justify-between w-full max-w-[1180px] mt-10 gap-y-3 xl:justify-center xl:gap-x-10">
+        <li className="flex flex-col text-black border border-black rounded-xl pl-5 pr-16 py-2 xl:w-[40%] sm:w-full">
           <p className="text-sm">happy clients</p>
           <p className="text-[40px] text-[#3e4636]">11 283</p>
         </li>
-        <li className="flex flex-col text-[#3e4636] border border-black rounded-xl pl-5 pr-16 py-2 max-xl:w-[40%] max-sm:w-full">
+        <li className="flex flex-col text-[#3e4636] border border-black rounded-xl pl-5 pr-16 py-2 xl:w-[40%] sm:w-full">
           <p className="text-sm">jobs completed</p>
           <p className="text-[40px]">11 283</p>
         </li>
-        <li className="flex flex-col text-[#3e4636] border border-black rounded-xl pl-5 pr-16 py-2 max-xl:w-[40%] max-sm:w-full">
+        <li className="flex flex-col text-[#3e4636] border border-black rounded-xl pl-5 pr-16 py-2 xl:w-[40%] sm:w-full">
           <p className="text-sm">average ratings</p>
           <p className="text-[40px]">11 283</p>
         </li>
-        <li className="flex flex-col text-[#3e4636] border border-black rounded-xl pl-5 pr-16 py-2 max-xl:w-[40%] max-sm:w-full">
+        <li className="flex flex-col text-[#3e4636] border border-black rounded-xl pl-5 pr-16 py-2 xl:w-[40%] sm:w-full">
           <p className="text-sm">average ratings</p>
           <p className="text-[40px]">11 283</p>
         </li>

@@ -5,7 +5,7 @@ import ArrowDownSvg from "./svgs/ArrowDownSvg";
 
 export default function () {
   return (
-    <div className="w-full max-w-[1380px] mx-auto flex flex-col gap-y-3 px-5">
+    <div className="w-full max-w-[1380px] mx-auto flex flex-col gap-y-3 px-3">
       <h1 className="text-[40px] font-medium text-center mb-3">
         Frequently Asked Questions
       </h1>
