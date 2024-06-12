@@ -9,6 +9,8 @@ export default {
       screens: {
         sm: { max: "640px" },
 
+        custom: { max: "860px" },
+
         md: { max: "768px" },
 
         lg: { max: "1024px" },

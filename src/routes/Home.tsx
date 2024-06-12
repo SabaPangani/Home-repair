@@ -1,3 +1,4 @@
+import Testimonials from "../components/Carousel";
 import ContactUs from "../components/ContactUs";
 import Faq from "../components/Faq";
 import Footer from "../components/Footer";
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <Ratings />
       <Services />
+      <Testimonials />
       <Faq />
       <ContactUs />
       <Footer />

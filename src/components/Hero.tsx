@@ -39,8 +39,9 @@ export default function Hero() {
         background: "url('https://ngetemplates.com/rinovim/img/intro.png')",
         backgroundColor: "rgb(25,92,146)",
         backgroundRepeat: "no-repeat",
-        backgroundSize: "contain",
         backgroundPositionX: "80%",
+        backgroundPositionY: "100%",
+        backgroundSize: "500px"
       }}
     >
       <div className="w-[1380px] flex flex-col">

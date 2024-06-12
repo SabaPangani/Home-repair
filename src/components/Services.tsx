@@ -86,62 +86,62 @@ export default function Services() {
     //     </div>
     //   </div>
     // </div>
-    <div className="flex justify-betweeen gap-x-20 items-center w-full max-w-[1380px] mx-auto my-44 mb-20 px-3 xl:flex-col gap-y-5 h-[550px]">
-      <div className="bg-[#f8f8f8] w-full max-w-[300px] p-[50px] xl:max-w-full h-[550px]">
-        <p className="text-[#797979] text-sm font-medium">OUR SERVICES</p>
-        <h1 className="text-[40px] text-[#000000] font-medium">SERVICES </h1>
-        <p className="mb-3 text-[#797979] font-normal">
+    <div className="flex justify-betweeen gap-x-20 items-center w-full max-w-[1380px] mx-auto my-20 px-3 xl:flex-col gap-y-5">
+      <div className="bg-[#f8f8f8] w-full max-w-[300px] p-[50px] xl:max-w-full">
+        <p className="text-[#797979] text-sm">OUR SERVICES</p>
+        <h1 className="text-[40px] text-[#000000] font-bold mb-3">SERVICES </h1>
+        <p className="mb-3 text-[#797979] text-lg">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
           reprehenderit corrupti commodi iusto eum quam culpa odio itaque
           explicabo doloribus, sint magnam aliquid alias? Odio.
         </p>
-        <p className="text-[#797979] font-normal">
+        <p className="text-[#797979] text-[17px]">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati,
           quod sequi alias magnam maxime ut excepturi nemo, odio incidunt,
           sapiente nam accusamus. Mollitia, fugit itaque.
         </p>
       </div>
-      <ul className="flex max-[645px]:flex-row flex-wrap justify-between gap-y-10 text-center sm:flex-col w-full h-full">
-        <li className="flex justify-center flex-col items-center bg-[#f8f8f8] py-10 px-5 gap-y-2 sm:w-full w-[calc(33.3333%-20px)]">
+      <ul className="flex flex-wrap justify-between gap-y-10 text-center sm:flex-col w-full h-full">
+        <li className="flex justify-center flex-col items-center bg-[#f8f8f8] py-10 px-5 gap-y-2 sm:w-full w-[calc(33.3333%-20px)] h-[265px]">
           <img src={painting} alt="" className="w-14 h-14" />
           <h2 className="text-[20px] opacity-90">PAINTING</h2>
-          <p className="text-[#797979] text-sm">
+          <p className="text-[#797979]">
             Lorem ipsum dolor sit amet consectetur consectetur
           </p>
         </li>
-        <li className="flex justify-center flex-col items-center bg-[#f8f8f8] py-10 px-5 gap-y-2 sm:w-full w-[calc(33.3333%-20px)]">
+        <li className="flex justify-center flex-col items-center bg-[#f8f8f8] py-10 px-5 gap-y-2 sm:w-full w-[calc(33.3333%-20px)] h-[265px]">
           <img src={installation} alt="" className="w-14 h-14" />
           <h2 className="text-[20px] opacity-90">INSTALLING</h2>
-          <p className="text-[#797979] text-sm">
+          <p className="text-[#797979]">
             Lorem ipsum dolor sit amet consectetur consectetur
           </p>
         </li>
-        <li className="flex justify-center flex-col items-center bg-[#f8f8f8] py-10 px-5 gap-y-2 sm:w-full w-[calc(33.3333%-20px)]">
+        <li className="flex justify-center flex-col items-center bg-[#f8f8f8] py-10 px-5 gap-y-2 sm:w-full w-[calc(33.3333%-20px)] h-[265px]">
           <img src={building} alt="" className="w-14 h-14" />
           <h2 className="text-[20px] opacity-90">BUILDING</h2>
-          <p className="text-[#797979] text-sm">
+          <p className="text-[#797979]">
             Lorem ipsum dolor sit amet consectetur consectetur
           </p>
         </li>
-        <li className="flex justify-center flex-col items-center bg-[#f8f8f8] py-10 px-5 gap-y-2 sm:w-full w-[calc(33.3333%-20px)]">
+        <li className="flex justify-center flex-col items-center bg-[#f8f8f8] py-10 px-5 gap-y-2 sm:w-full w-[calc(33.3333%-20px)] h-[265px]">
           <img src={sketch} alt="" className="w-14 h-14" />
           <h2 className="text-[20px] opacity-90">DESIGN</h2>
-          <p className="text-[#797979] text-sm">
+          <p className="text-[#797979]">
             Lorem ipsum dolor sit amet consectetur consectetur
           </p>
         </li>
-        <li className="flex justify-center flex-col items-center bg-[#f8f8f8] py-10 px-5 gap-y-2 sm:w-full w-[calc(33.3333%-20px)]">
+        <li className="flex justify-center flex-col items-center bg-[#f8f8f8] py-10 px-5 gap-y-2 sm:w-full w-[calc(33.3333%-20px)] h-[265px]">
           <img src={planning} alt="" className="w-14 h-14" />
           <h2 className="text-[20px] opacity-90">PLANNING</h2>
-          <p className="text-[#797979] text-sm">
+          <p className="text-[#797979]">
             Lorem ipsum dolor sit amet consectetur consectetur
           </p>
         </li>
-        <li className="flex justify-center flex-col items-center bg-[#f8f8f8] py-10 px-5 gap-y-2 sm:w-full w-[calc(33.3333%-20px)]">
+        <li className="flex justify-center flex-col items-center bg-[#f8f8f8] py-10 px-5 gap-y-2 sm:w-full w-[calc(33.3333%-20px)] h-[265px]">
           <img src={sofa} alt="" className="w-14 h-14" />
 
           <h2 className="text-[20px] opacity-90">FURNISHINGS</h2>
-          <p className="text-[#797979] text-sm">
+          <p className="text-[#797979]">
             Lorem ipsum dolor sit amet consectetur consectetur
           </p>
         </li>

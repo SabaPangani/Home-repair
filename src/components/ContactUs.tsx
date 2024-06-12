@@ -1,7 +1,6 @@
 import TelephoneSvg from "./svgs/TelephoneSvg";
 import EnvelopeSvg from "./svgs/EnvelopeSvg";
 import LocationSvg from "./svgs/LocationSvg";
-import Testimonials from "./Carousel";
 
 export default function ContactUs() {
   return (
@@ -94,7 +93,7 @@ export default function ContactUs() {
     //     </form>
     //   </div>
     // </div>
-    <div className="flex flex-col justify-center items-center bg-[#195c92] py-28 gap-10 relative mt-[300px]">
+    <div className="flex flex-col justify-center items-center bg-[#195c92] py-28 gap-10 relative mt-32">
       {/* <div className="w-[1380px] bg-[#f8f8f8] p-20 flex justify-center items-center flex-col rounded-sm absolute -top-[210px]">
         <p className="text-black w-1/2 text-center text-lg">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo
@@ -107,9 +106,9 @@ export default function ContactUs() {
           <p className="text-[#878787] text-sm font-light">Marketer</p>
         </div>
       </div> */}
-      <div className="absolute -top-[200px] cursor-grab w-full px-3">
-        <Testimonials />
-      </div>
+      {/* <div className="absolute -top-[200px] cursor-grab w-full px-3"> */}
+        {/* <Testimonials /> */}
+      {/* </div> */}
       <ul className="flex text-center w-full justify-center mt-10 md:flex-col md:items-center gap-y-12">
         <li className="flex flex-col justify-center items-center gap-x-10 gap-y-2 w-1/3">
           <div className="bg-[#f26522] w-15 h-15 rounded-full px-3 py-3 relative">
