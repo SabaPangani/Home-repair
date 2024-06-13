@@ -1,9 +1,3 @@
-import TelephoneSvg from "./svgs/TelephoneSvg";
-import EnvelopeSvg from "./svgs/EnvelopeSvg";
-import LocationSvg from "./svgs/LocationSvg";
-import InSvg from "./svgs/InSvg";
-import TwitterSvg from "./svgs/TwitterSvg";
-import FacebookSvg from "./svgs/FacebookSvg";
 
 export default function ContactUs() {
   return (
