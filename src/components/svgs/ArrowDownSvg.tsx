@@ -1,14 +1,20 @@
-export default function ArrowDownSvg({ fill }: { fill: string }) {
+export default function ArrowDownSvg({
+  fill,
+  size,
+}: {
+  fill: string;
+  size: number;
+}) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       fill={fill}
-      height="11"
-      width="11"
+      height={size}
+      width={size}
       version="1.1"
       id="Layer_1"
       viewBox="0 0 330 330"
-      className="opacity-80 mt-[0.7px]"
+      className="mt-[0.7px]"
     >
       <path
         id="XMLID_225_"

@@ -7,7 +7,7 @@ export default function Navbar() {
 
       <ul className="flex flex-row items-center gap-x-10 font-medium cursor-pointer sm:hidden">
         <li>Home</li>
-        <li className="flex flex-row items-center gap-x-2">Services <ArrowDownSvg fill="#ffffff"/></li>
+        <li className="flex flex-row items-center gap-x-2">Services <ArrowDownSvg fill="#ffffff" size={11}/></li>
         <li>About</li>
         <li>Contact</li>
       </ul>
