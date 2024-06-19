@@ -40,8 +40,8 @@ export default function Hero() {
         backgroundColor: "rgb(25,92,146)",
         backgroundRepeat: "no-repeat",
         backgroundPositionX: "80%",
-        backgroundPositionY: "100%",
-        backgroundSize: "500px"
+        backgroundPositionY: "20%",
+        backgroundSize: "500px",
       }}
     >
       <div className="w-[1380px] flex flex-col">
